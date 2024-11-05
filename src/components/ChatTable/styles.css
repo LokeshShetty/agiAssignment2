@@ -1,0 +1,15 @@
+/* ChatTable.css */
+.ant-table {
+  border-collapse: separate; /* To avoid borders collapsing */
+}
+
+.ant-table-thead > tr > th {
+  background-color: #f5f5f5; /* Light grey header */
+  position: sticky;
+  top: 0;
+  z-index: 1; /* Keep header above other content */
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #ddd; /* Bottom border for table rows */
+}
